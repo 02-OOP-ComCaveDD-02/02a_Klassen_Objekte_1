@@ -10,6 +10,7 @@ public class App {
         // cat --> Referenzvariable
         // Cat --> Referenztyp(Klasse)
         Cat cat = new Cat();
+        // IMPLIZITE Typumwandlung  Cat --> String 
         output("Blick von aussen: " + cat);
         output("Blick von innen: " + cat.getInstanceVariable());
 

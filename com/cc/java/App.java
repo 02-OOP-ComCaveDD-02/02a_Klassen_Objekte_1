@@ -11,13 +11,13 @@ public class App {
         // Cat --> Referenztyp(Klasse)
         Cat cat = new Cat();
         output("Blick von aussen: " + cat);
-        cat.tellYourAddress(); 
+        output("Blick von innen: " + cat.getInstanceVariable());
 
         System.out.println("----------------------------");
 
         Cat cat2 = new Cat();
         output("Blick von aussen: " + cat2);
-        cat2.tellYourAddress();
+        output("Blick von innen: " + cat2.getInstanceVariable());
 
     }
 
